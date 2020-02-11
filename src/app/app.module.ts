@@ -18,6 +18,7 @@ import { AcessoNegadoComponent } from './acesso-negado/acesso-negado.component';
 import { ModalNotCadastroComponent } from './modal-not-cadastro/modal-not-cadastro.component';
 import {MatCardModule} from '@angular/material/card';
 import { LoginComponent } from './login/login.component';
+import {NgxTypedJsModule} from 'ngx-typed-js';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { LoginComponent } from './login/login.component';
     LoginComponent
   ],
   imports: [
+    NgxTypedJsModule,
     BrowserModule,
     BrowserAnimationsModule,
     MatDialogModule,
